@@ -7,7 +7,7 @@ body {
 main,
 header div,
 footer {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -40,9 +40,11 @@ figure {
   color: #999999;
   font-weight: 300;
 }
-img {
-  width: 37.2rem;
+figure > img {
+  width: 100%;
   border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -5px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin-bottom: 15px;
 }
 
 a {
